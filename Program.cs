@@ -7,7 +7,8 @@ namespace ChessProject
     {
         static void Main(string[] args)
         {
-            Board board = new Board(9, 9);
+            Board board = new Board(8, 8);
+            ScreenBoard.printOutBoard(board);
         }
     }
 }

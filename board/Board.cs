@@ -19,5 +19,10 @@ namespace ChessProject.board
 
             pieces = new Piece[rows, columns];
         }
+
+        public Piece positionPiece(int row, int column)
+        {
+            return pieces[row, column];
+        }
     }
 }
